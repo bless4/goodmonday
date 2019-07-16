@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App matches snapshot 1`] = `
+<div
+  className="App"
+>
+  <div
+    className="view_body"
+  >
+    <div
+      className="input-group"
+    >
+      <input
+        className="form-control"
+        name="arrayValue"
+        onChange={[Function]}
+        placeholder="ex: 1,2,3,4,5,6"
+        type="text"
+        value=""
+      />
+      <div
+        className="input-group-append"
+      >
+        <button
+          aria-label={null}
+          className="btn btn-success"
+          onClick={[Function]}
+          type="button"
+        >
+          Get Result
+        </button>
+      </div>
+    </div>
+    <div
+      className="ant-alert ant-alert-success ant-alert-no-icon"
+      data-show={true}
+    >
+      <span
+        className="ant-alert-message"
+      >
+        <div>
+          <p>
+            Result Pair Array : 
+            
+          </p>
+          <p>
+             Array Pair  Multiplication: 
+          </p>
+          <p>
+            Total Sum : 
+            0
+          </p>
+        </div>
+      </span>
+      <span
+        className="ant-alert-description"
+      />
+    </div>
+  </div>
+</div>
+`;
