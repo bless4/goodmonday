@@ -28,10 +28,10 @@ The user should input integers separate them with a comma. After entering your d
 ## Useful Informations
 -To download:- You can either download this repo as a zip file or throw  "git clone https://github.com/bless4/goodmonday.git"
 
-# On the downloaded repo Run ‘npm install’
-# npm start
-# To test run "npm test"
-# For deployment run "npm build"
+### On the downloaded repo Run ‘npm install’
+### npm start
+### To test run "npm test"
+### For deployment run "npm build"
 
 
 
