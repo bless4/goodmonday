@@ -35,4 +35,25 @@ The user should input integers separate them with a comma. After entering your d
 
 
 
-
+## Structure
+/public
+/src
+   /_snapshots_
+          /App.test.js.snap
+   /component
+          /_snapshots_
+                  /Main.test.js.snap
+          /Main.js
+          /Main.test.js
+   /img
+       /plant.gif
+   /App.js
+   /App.test.js
+   /index.css
+   /index.js
+   /serviceWorker.js
+   /setupTests.js
+/gitignore
+/package-lockjson
+/package.json
+/README.md
