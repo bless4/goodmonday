@@ -36,25 +36,36 @@ The user should input integers separate them with a comma. After entering your d
 
 
 ## Structure
-/public
-/src
-   /_snapshots_
-          /App.test.js.snap
-   /component
-          /_snapshots_
-                  /Main.test.js.snap
-          /Main.js
-          /Main.test.js
-   /img
-       /plant.gif
-   /App.js
-   /App.test.js
-   /index.css
-   /index.js
-   /serviceWorker.js
-   /setupTests.js
-/gitignore
-/package-lockjson
-/package.json
-/README.md
+|--public
+|-- src
+      |_snapshots_
+          |--App.test.js.snap
+      |--component
+          |--snapshots 
+               |--Main.test.js.snap
+          |--widget
+               |--snapshots
+               |--ButtonWidget.js
+               |--ButtonWidget.test.js
+               |--Index.js
+               |--InputWidget.js
+               |--InputWidget.test.js
+               |--ResultWidget.js
+               |--ResultWidget.test.js
+          |--Main.js
+          |main.test.js     
+      |--img
+           |--plant.gif 
+      |--App.css
+      |--App.test.js
+      |--index.css
+      |--index.js
+      |--serviceWorker.js
+      |setupTest.js
+
+
+|--gitignore
+|--package-lockjson
+|--package.json
+|--README.md
 # good-monday
