@@ -36,13 +36,18 @@ The user should input integers separate them with a comma. After entering your d
 
 
 ## Structure
+```
+```
 |--public
 |-- src
+```   ```
       |_snapshots_
           |--App.test.js.snap
       |--component
           |--snapshots 
                |--Main.test.js.snap
+               ```
+      ```
           |--widget
                |--snapshots
                |--ButtonWidget.js
@@ -52,20 +57,28 @@ The user should input integers separate them with a comma. After entering your d
                |--InputWidget.test.js
                |--ResultWidget.js
                |--ResultWidget.test.js
+               ```
+          ```     
           |--Main.js
           |main.test.js     
-      |--img
+          ```
+    ```  |--img
            |--plant.gif 
+           ```
+       ```
       |--App.css
       |--App.test.js
       |--index.css
       |--index.js
       |--serviceWorker.js
       |setupTest.js
+      ```
 
-
+```
 |--gitignore
 |--package-lockjson
 |--package.json
 |--README.md
+```
+```
 # good-monday
