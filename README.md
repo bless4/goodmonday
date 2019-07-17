@@ -40,15 +40,26 @@ The user should input integers separate them with a comma. After entering your d
 ```
 |--public
 |-- src
-```   ```
+```   
+```
       |_snapshots_
+      ```
+      ```
           |--App.test.js.snap
+          ````
+```
       |--component
-          |--snapshots 
+      ```
+        ```
+          |--snapshots`
+          ```
+          ```
                |--Main.test.js.snap
                ```
       ```
           |--widget
+          ```
+            ```
                |--snapshots
                |--ButtonWidget.js
                |--ButtonWidget.test.js
@@ -65,14 +76,14 @@ The user should input integers separate them with a comma. After entering your d
     ```  |--img
            |--plant.gif 
            ```
-       ```
+ ```
       |--App.css
       |--App.test.js
       |--index.css
       |--index.js
       |--serviceWorker.js
       |setupTest.js
-      ```
+ ```
 
 ```
 |--gitignore
