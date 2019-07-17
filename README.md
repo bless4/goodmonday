@@ -39,6 +39,8 @@ The user should input integers separate them with a comma. After entering your d
 ```
 ```
 |--public
+```
+```
 |-- src
 ```   
 ```
