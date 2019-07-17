@@ -36,7 +36,7 @@ The user should input integers separate them with a comma. After entering your d
 
 
 ## Structure
-```
+
 ```
 |--public
 ```
@@ -93,5 +93,5 @@ The user should input integers separate them with a comma. After entering your d
 |--package.json
 |--README.md
 ```
-```
+
 # good-monday
